@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="34.143">
+  <properties />
+  
+  
+            <testcase name="checkRegister" time="29.090" classname="com.test.TestSignUp" />
+                <testcase name="checkvalidCredentialsnUpSig" time="5.053" classname="com.test.TestSignUp" />
+      
+</testsuite>
