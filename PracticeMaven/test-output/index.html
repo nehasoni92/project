@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-Suite">
-                    <span>2 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,36 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 4 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.TestLoginPage" hash-for-method="checkValidCredentials(iuy@gmail.com, abc@1234)">checkValidCredentials(iuy@gmail.com, abc@1234)</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.TestSignUp" hash-for-method="checkvalidCredentialsSignUp">checkvalidCredentialsSignUp</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.TestLoginPage" hash-for-method="checkValidCredentials(null, null)">checkValidCredentials(null, null)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.TestLoginPage" hash-for-method="checkValidCredentials(iuy@gmail.com, abc@1234)">checkValidCredentials(iuy@gmail.com, abc@1234)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.TestLoginPage" hash-for-method="checkinvalidlogin">checkinvalidlogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -132,84 +117,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.test.TestLoginPage</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSignUp</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkValidCredentials(iuy@gmail.com, abc@1234)">
-                  </a> <!-- checkValidCredentials(iuy@gmail.com, abc@1234) -->
-                  <span class="method-name">checkValidCredentials</span>
-                  <span class="parameters">(iuy@gmail.com, abc@1234)</span>
-                  <div class="stack-trace">java.lang.Error: Unresolved compilation problem: 
-	login cannot be resolved
-
-	at com.test.TestLoginPage.checkValidCredentials(TestLoginPage.java:32)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkValidCredentials(null, null)">
-                  </a> <!-- checkValidCredentials(null, null) -->
-                  <span class="method-name">checkValidCredentials</span>
-                  <span class="parameters">(null, null)</span>
-                  <div class="stack-trace">java.lang.Error: Unresolved compilation problem: 
-	login cannot be resolved
-
-	at com.test.TestLoginPage.checkValidCredentials(TestLoginPage.java:32)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkValidCredentials(iuy@gmail.com, abc@1234)">
-                  </a> <!-- checkValidCredentials(iuy@gmail.com, abc@1234) -->
-                  <span class="method-name">checkValidCredentials</span>
-                  <span class="parameters">(iuy@gmail.com, abc@1234)</span>
-                  <div class="stack-trace">java.lang.Error: Unresolved compilation problem: 
-	login cannot be resolved
-
-	at com.test.TestLoginPage.checkValidCredentials(TestLoginPage.java:32)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkinvalidlogin">
-                  </a> <!-- checkinvalidlogin -->
-                  <span class="method-name">checkinvalidlogin</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;UTSAV-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190917135527, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 6252, moz:profile: C:\Users\Administrator\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9771bce4-ffc8-49d6-b701-821e0babfd5d
-*** Element info: {Using=xpath, value=/html/body/div/div[2]/div/div[3]/div/div[1]/ol/li}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.page.LoginPage.invalidlogin(LoginPage.java:60)
-	at com.test.TestLoginPage.checkinvalidlogin(TestLoginPage.java:48)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
+                  <a name="checkvalidCredentialsSignUp">
+                  </a> <!-- checkvalidCredentialsSignUp -->
+                  <span class="method-name">checkvalidCredentialsSignUp</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -227,17 +149,11 @@ Session ID: 9771bce4-ffc8-49d6-b701-821e0babfd5d
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
-        &lt;include name=&quot;signup&quot;/&gt;
         &lt;include name=&quot;register&quot;/&gt;
-        &lt;include name=&quot;Invalidcountry&quot;/&gt;
-        &lt;include name=&quot;Invalidpincode&quot;/&gt;
-        &lt;include name=&quot;loginvalid&quot;/&gt;
-        &lt;include name=&quot;logininvalidlogin&quot;/&gt;
-        &lt;include name=&quot;search&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.test.TestLoginPage&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSignUp&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -262,18 +178,10 @@ Session ID: 9771bce4-ffc8-49d6-b701-821e0babfd5d
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">logininvalidlogin</span>
+              <span class="test-group-name">register</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">checkinvalidlogin</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">loginvalid</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">checkValidCredentials</span>
+                <span class="method-in-group-name">checkvalidCredentialsSignUp</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -293,28 +201,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkinvalidlogin')
-data.setCell(0, 2, 'com.test.TestLoginPage')
-data.setCell(0, 3, 138096);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkValidCredentials')
-data.setCell(1, 2, 'com.test.TestLoginPage')
-data.setCell(1, 3, 102);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkValidCredentials')
-data.setCell(2, 2, 'com.test.TestLoginPage')
-data.setCell(2, 3, 17);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkValidCredentials')
-data.setCell(3, 2, 'com.test.TestLoginPage')
-data.setCell(3, 3, 16);
+data.setCell(0, 1, 'checkvalidCredentialsSignUp')
+data.setCell(0, 2, 'com.test.TestSignUp')
+data.setCell(0, 3, 65097);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -329,13 +225,15 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.test.TestLoginPage</span>
+              <span class="ignored-class-name">com.test.TestSignUp</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">checkLogout</span>
+                <span class="ignored-method-name">checkinvalidCredentialsSignUp_Country</span>
+                <br/>
+                <span class="ignored-method-name">checkinvalidCredentialsnUpSig_postcode</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -347,30 +245,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.test.TestLoginPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.test.TestSignUp</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">checkValidCredentials(iuy@gmail.com, abc@1234)</span>
+                <span class="method-name">checkvalidCredentialsSignUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">checkValidCredentials(iuy@gmail.com, abc@1234)</span>
-                <span class="method-start">148 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">checkValidCredentials(null, null)</span>
-                <span class="method-start">221 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">checkinvalidlogin</span>
-                <span class="method-start">275 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

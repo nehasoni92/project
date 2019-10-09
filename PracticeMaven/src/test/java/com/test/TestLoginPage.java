@@ -28,11 +28,9 @@ public class TestLoginPage {
 		LoginPage loginpage=PageFactory.initElements(driver, LoginPage.class);
 		loginpage.login(userid, password);
 		Thread.sleep(3000);
-		loginpage.LogOut();
 		Assert.assertTrue(loginpage.LogOut());
-			}
-	
-	
+		driver.close();
+			}	
 		
 	
 	@Test(groups={"logininvalidlogin"})	

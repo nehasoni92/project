@@ -29,7 +29,8 @@
       
       
       
-      <class name="com.test.TestLoginPage"/>
+      
+      <class name="com.test.TestSignUp"/>
       
     </classes>
   </test> <!-- Test -->

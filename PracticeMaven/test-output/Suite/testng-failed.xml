@@ -8,22 +8,15 @@
   <test thread-count="5" name="Test(failed)">
     <groups>
       <run>
-        <include name="signup"/>
         <include name="register"/>
-        <include name="Invalidcountry"/>
-        <include name="Invalidpincode"/>
-        <include name="loginvalid"/>
-        <include name="logininvalidlogin"/>
-        <include name="search"/>
       </run>
     </groups>
     <classes>
-      <class name="com.test.TestLoginPage">
+      <class name="com.test.TestSignUp">
         <methods>
-          <include name="checkinvalidlogin"/>
-          <include name="checkValidCredentials" invocation-numbers="0 1 2"/>
+          <include name="checkvalidCredentialsSignUp"/>
         </methods>
-      </class> <!-- com.test.TestLoginPage -->
+      </class> <!-- com.test.TestSignUp -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
