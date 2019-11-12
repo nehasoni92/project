@@ -23,34 +23,36 @@ public class AdminController extends HttpServlet {
 
 	public AdminController() {
 		super();
+		
 		// TODO Auto-generated constructor stub
 	}
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("Admin Server Called..");
 		Admin admin=new Admin();
 		AdminDAO ad=new AdminDAO();
 		PrintWriter out=response.getWriter();
 		response.setContentType("text/html");
 		admin.setRules(request.getParameter("rules"));
 		admin.setHod(request.getParameter("hod"));
-				AdminDAO bo=new AdminDAO();
 		RequestDispatcher rd=null;
 
-		try {
-			if(ad.SubmitAdminRules(admin))
-			{	System.out.println("printed");
-				out.println("Submitted Successfully");
-				rd=request.getRequestDispatcher("admin.html");
-				rd.include(request, response);		
+			try {
+				if(ad.SubmitAdminRules(admin))
+				{	
+					out.println("Submitted Successfully");
+					rd=request.getRequestDispatcher("admin.html");
+					rd.include(request, response);	
+				}
+				else
+				{
+					System.out.println("not printed");
+				}
+			} catch (SQLException | ClassNotFoundException | com.exception.BusinessException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
-			else
-			{
-				System.out.println("not printed");
-			}
-		} catch (ClassNotFoundException | com.exception.BusinessException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 		
 	}
 

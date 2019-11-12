@@ -52,11 +52,12 @@ public class LoginController extends HttpServlet {
 					
 				rd=request.getRequestDispatcher("admin.html");
 				rd.forward(request, response);		
-				
+				System.out.print("Called Admin.Html");
 				}
 				
 				else
-				{ System.out.println("password incorrect");
+				{ 
+				System.out.println("password incorrect");
 				request.setAttribute("msg", "password incorrect, please login again");
 
 				rd=request.getRequestDispatcher("login.jsp");
